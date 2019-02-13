@@ -1,3 +1,5 @@
 # frozen_string_literal: true
+source "https://rubygems.org"
 
 gem 'rubocop', '0.51.0'
+gem 'privatecop', git: "git@github.com:wata727/privatecop"
