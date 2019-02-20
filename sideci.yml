@@ -1,0 +1,13 @@
+linter:
+  rubocop:
+    root_dir: 'sideci_demo'
+    gems:
+      - name: "privatecop"
+        git:
+          repo: "git@github.com:wata727/privatecop.git"
+          branch: master
+
+  phpmd:
+    root_dir: 'sideci_demo'
+    options:
+      rule: 'phpmd.xml'
