@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: wata727/tflint:0.7.4
+    steps:
+      - checkout
+      - run: tflint --error-with-issues
+
