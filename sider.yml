@@ -1,3 +1,4 @@
 linter:
   misspell:
-    exclude: LICENSE
+    exclude:
+      - LICENSE
