@@ -2,3 +2,6 @@ linter:
   misspell:
     exclude:
       - LICENSE
+branches:
+  exclude:
+    - test
